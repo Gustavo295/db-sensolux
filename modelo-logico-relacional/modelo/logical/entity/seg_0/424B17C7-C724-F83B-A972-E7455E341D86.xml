@@ -27,6 +27,48 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_kit" id="D5B23B54-324A-9728-923B-08AA995557E2">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-05-29 20:58:43 UTC</createdTime>
+<generatorID>C42BC847-BF63-7C78-9542-C54C0CD6701E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
+</engineerTo>
+<referedAttribute>09CC7C79-FCBA-B053-9EC0-A2988EA12C6B</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_usuario" id="EC42EF29-DDA6-221F-0343-0BCB11E8A612">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-05-29 20:58:57 UTC</createdTime>
+<generatorID>20E1B25C-975D-32A6-87FF-2B5DE8A3E62D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
+</engineerTo>
+<referedAttribute>87E29B3A-5B8A-00CF-E4A2-44D38E9E80D4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pedido" id="5599D81A-FC82-1530-349D-EBD900E6546D">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-05-29 20:59:21 UTC</createdTime>
+<generatorID>361E3273-1B09-500E-5F1B-8E7B7941C09B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
+</engineerTo>
+<referedAttribute>B093E8FA-6B86-9E14-AE96-3F2B811D0419</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="A48E3713-59EF-3E90-9FDA-1F652079B30A" name="SX_ITENS_PEDIDO PK">

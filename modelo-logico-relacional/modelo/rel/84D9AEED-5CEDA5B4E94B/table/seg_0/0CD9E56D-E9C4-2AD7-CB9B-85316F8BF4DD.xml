@@ -1,0 +1,60 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0CD9E56D-E9C4-2AD7-CB9B-85316F8BF4DD" name="SSX_USUARIOS">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-05-29 21:49:11 UTC</createdTime>
+<generatorID>0189F69F-A35F-3262-F6EA-5B0A0A184F00</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_usuario" id="707F84CF-E68D-9EF6-FA58-89AD459C054B">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-05-29 21:49:11 UTC</createdTime>
+<generatorID>87E29B3A-5B8A-00CF-E4A2-44D38E9E80D4</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nome" id="957078C9-93D8-F3FE-8F80-17B7CCF16B18">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-05-29 21:49:11 UTC</createdTime>
+<generatorID>16D73DDE-2386-77BF-D434-4DDD305195EB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>60</dataTypeSize>
+<ownDataTypeParameters>60,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="senha" id="7B63038D-0A48-9643-5F03-D2706935960B">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-05-29 21:49:11 UTC</createdTime>
+<generatorID>2D72E526-5EA0-CB02-0DA6-32CB71099FF7</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="98418528-0F7B-13D5-C31D-D313FCCC89BF" name="SSX_USUARIOS_PK">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-05-29 21:49:11 UTC</createdTime>
+<generatorID>52A6C0FB-EE00-766A-F766-6436B727410A</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="707F84CF-E68D-9EF6-FA58-89AD459C054B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

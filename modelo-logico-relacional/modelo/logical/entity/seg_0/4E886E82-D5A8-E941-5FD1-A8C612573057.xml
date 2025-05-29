@@ -27,6 +27,46 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="nome" id="68A77709-A551-7CFB-969C-B964CAC14D16">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-05-29 21:19:40 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descricao" id="1B4525A0-1A6D-E61E-6448-EB8CEA650D35">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-05-29 21:19:49 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="preco" id="AC219832-E6CA-4D5D-E8EE-73F224190CAA">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-05-29 21:19:58 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,3,2</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="F20D94D9-F142-DE85-1F52-577D303228A2" name="SX_KITS PK">

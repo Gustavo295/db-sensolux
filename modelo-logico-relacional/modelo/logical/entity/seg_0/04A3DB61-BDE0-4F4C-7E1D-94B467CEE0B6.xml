@@ -27,6 +27,45 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_sensor" id="B3F769D8-626B-2B1B-D419-21E9724DF5D5">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-05-29 20:57:08 UTC</createdTime>
+<generatorID>07A36D96-6E55-8938-7972-2DB0F25A7494</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
+</engineerTo>
+<referedAttribute>47BEE675-B0EA-510A-A3D0-255BEA7A3D0F</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="valor" id="346A0E50-7697-9D32-EC01-A4C0933D9601">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-05-29 21:13:46 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data_hora" id="56F175CA-959E-EAFB-E8B6-2501F5E48FE7">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-05-29 21:13:46 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
 <identifier id="20694094-D4CC-91BE-770D-FFF863716B49" name="SX_LEITURAS_SENSORES PK">
