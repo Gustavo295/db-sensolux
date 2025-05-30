@@ -1,0 +1,73 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DD4EB97D-9447-B786-1641-64BC3345B9EA" name="SSX_PEDIDOS">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<generatorID>6071EB84-2EE0-D968-F153-AEA00E63B0AB</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pedido" id="5EBC578F-076A-914B-5053-6FD502255F26">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<generatorID>B093E8FA-6B86-9E14-AE96-3F2B811D0419</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_pedido" id="2D2C91A4-297B-0FDB-EF4F-A2A4F08DC392">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<generatorID>F0040BA0-A17A-AFEE-13A6-86402838A711</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="preco" id="66DC9D6B-33AC-0A71-AC43-279A90F810C9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<generatorID>E32AFB40-3648-D72F-3B76-23BE214A6F77</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypePrecision>4</dataTypePrecision>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,4,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="status" id="0B819283-F880-D6B1-E957-3A95AB1DB9D2">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<generatorID>8A125834-27DE-64A3-49F5-C079A3A65F70</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1CDC5C19-F5C0-91A7-4D7A-E892298FDC34" name="SSX_PEDIDOS_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<generatorID>CE10BFDC-4EE7-AFD1-0F50-DC3EF36F3ADF</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="5EBC578F-076A-914B-5053-6FD502255F26"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

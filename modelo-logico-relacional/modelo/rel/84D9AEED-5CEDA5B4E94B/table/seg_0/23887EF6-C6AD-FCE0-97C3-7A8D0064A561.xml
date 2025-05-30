@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E612CB19-56D3-278B-F92B-E7D3282537C9" name="SSX_SENSORES">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-05-29 21:49:11 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="23887EF6-C6AD-FCE0-97C3-7A8D0064A561" name="SSX_SENSORES">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 11:42:35 UTC</createdTime>
 <generatorID>5D0E8869-0E98-147A-3055-96BA4135C914</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_sensor" id="31E21FD1-D46D-4904-CE28-282D758E3844">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-05-29 21:49:11 UTC</createdTime>
+<Column name="id_sensor" id="BB289ACF-CB44-6EE5-5C92-C676E0F00777">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 11:42:35 UTC</createdTime>
 <generatorID>47BEE675-B0EA-510A-A3D0-255BEA7A3D0F</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,10 +19,10 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SSX_USUARIOS_id_usuario" id="D78B68C7-E1BB-B64F-00DC-670AECA948DC">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-05-29 21:49:11 UTC</createdTime>
-<generatorID>78146303-6B8B-0334-99BF-39186CFC4D8C</generatorID>
+<Column name="SSX_KITS_id_kit" id="ACE69782-6532-86D9-4693-B86F7F08EA0E">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<generatorID>885E8A1B-E0A6-72F7-F175-1FAE4E2FFBA1</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
@@ -31,12 +31,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="0E308F60-F19D-D23E-1340-8C35D9AC4804" referredColumn="707F84CF-E68D-9EF6-FA58-89AD459C054B"/>
+<colAssociation fkAssociation="CB1A3B74-4C17-11A4-8300-72F454624ADC" referredColumn="363DAFFC-866D-32E2-21AB-AD017F6B22C0"/>
 </associations>
 </Column>
-<Column name="tipo" id="5ABE94C9-B2AF-998E-ECED-3A0FD981FBD4">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-05-29 21:49:11 UTC</createdTime>
+<Column name="tipo" id="6ECD6EF6-5DD0-52F3-D860-F0C43A073018">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 11:42:35 UTC</createdTime>
 <generatorID>D90674C3-97BD-5107-7C5E-D7E3FB70D1C0</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,9 +46,9 @@
 <ownDataTypeParameters>12,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="descricao" id="AF298AD3-F37D-F283-A9FA-E58DAF07575C">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-05-29 21:49:11 UTC</createdTime>
+<Column name="descricao" id="BCBACD4B-4730-2BB5-C367-544731AEE4A5">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 11:42:35 UTC</createdTime>
 <generatorID>F4904070-8A12-7ACF-31DE-42F7660F9324</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,9 +58,9 @@
 <ownDataTypeParameters>40,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="modelo" id="11458CBE-6F27-F9AE-E3BA-A38266B6A735">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-05-29 21:49:11 UTC</createdTime>
+<Column name="modelo" id="7ADCF349-43F2-AE23-D04C-36FCD089E028">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 11:42:35 UTC</createdTime>
 <generatorID>10BC5001-E8CA-84C1-14A4-C7B56EAEF86A</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -70,9 +70,9 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="status" id="352453AC-0465-F7E5-E0F5-1D66633FFC4C">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-05-29 21:49:11 UTC</createdTime>
+<Column name="status" id="62DCB0CB-A6C7-0F96-1E27-B88E9391F1FC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 11:42:35 UTC</createdTime>
 <generatorID>556366E3-3D33-F61D-169B-8B68009BF075</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -84,27 +84,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="4D3EE50B-E2DB-16E1-CCA7-09A9DEF628B5" name="SSX_SENSORES_PK">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-05-29 21:49:11 UTC</createdTime>
+<ind_PK_UK id="1AEB7131-F70D-30DB-4B49-EA9BCAF118B8" name="SSX_SENSORES_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 11:42:35 UTC</createdTime>
 <generatorID>A1CE0962-B9BD-DEEF-2999-4F92E52E80B5</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="31E21FD1-D46D-4904-CE28-282D758E3844"/>
+<colUsage columnID="BB289ACF-CB44-6EE5-5C92-C676E0F00777"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="21BC4F63-FE0C-5C0C-49C1-8808812652D6" name="SSX_SENSORES_SSX_USUARIOS_FK">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-05-29 21:49:14 UTC</createdTime>
-<generatorID>0E9D2220-D72E-3698-7556-E38EF1620280</generatorID>
+<ind_PK_UK id="FE0B74C5-1A0D-A5D1-9576-39C65012059E" name="SSX_SENSORES_SSX_KITS_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<generatorID>5975E33C-9C24-C9F2-88D9-556588938196</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="D78B68C7-E1BB-B64F-00DC-670AECA948DC"/>
+<colUsage columnID="ACE69782-6532-86D9-4693-B86F7F08EA0E"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

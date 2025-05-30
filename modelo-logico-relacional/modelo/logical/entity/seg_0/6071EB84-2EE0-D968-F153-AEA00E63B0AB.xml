@@ -27,20 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_item_pedido" id="9D1ACDCA-CA09-BA89-EFC5-37A3B93B624D">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-05-29 20:59:23 UTC</createdTime>
-<generatorID>361E3273-1B09-500E-5F1B-8E7B7941C09B</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
-</engineerTo>
-<referedAttribute>ED3269D3-2FC3-3F14-2576-5ACB1E0D1A8C</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="data_pedido" id="F0040BA0-A17A-AFEE-13A6-86402838A711">
 <createdBy>Fernando</createdBy>
 <createdTime>2025-05-29 21:21:42 UTC</createdTime>
@@ -86,8 +72,9 @@
 <createdBy>Fernando</createdBy>
 <createdTime>2025-05-29 19:58:02 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
+<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>

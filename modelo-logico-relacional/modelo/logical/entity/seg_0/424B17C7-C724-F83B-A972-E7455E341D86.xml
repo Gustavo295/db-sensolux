@@ -55,10 +55,10 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_pedido" id="5599D81A-FC82-1530-349D-EBD900E6546D">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-05-29 20:59:21 UTC</createdTime>
-<generatorID>361E3273-1B09-500E-5F1B-8E7B7941C09B</generatorID>
+<Attribute name="id_pedido" id="4ADF81B3-4640-6DEC-F063-083B1D6598E6">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 11:24:45 UTC</createdTime>
+<generatorID>6524183D-EEED-D5E5-5AA2-00E3B9335D66</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
@@ -75,8 +75,9 @@
 <createdBy>Fernando</createdBy>
 <createdTime>2025-05-29 19:58:06 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
+<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="false"/>
 </engineerTo>
 <pk>true</pk>
 <usedAttributes>
