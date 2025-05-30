@@ -66,8 +66,18 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="STATUS IN (1,2,3)"/>
+</checkConstraint>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>3</endValue>
+<description>Check de nível de risco</description>
+</rangeDef>
+</listOfRanges>
 </Column>
 <Column name="status" id="4754823D-228C-3E02-C847-DBB33C9AE06F">
 <createdBy>labsfiap</createdBy>
@@ -78,6 +88,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="STATUS IN(&apos;ATIVO&apos;, &apos;RESOLVIDO&apos;,&apos;IGNORADO&apos;)"/>
+</checkConstraint>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>

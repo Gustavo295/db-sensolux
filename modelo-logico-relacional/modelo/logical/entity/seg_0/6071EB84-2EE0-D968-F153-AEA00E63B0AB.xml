@@ -64,6 +64,9 @@
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
 <dataTypeSize>15</dataTypeSize>
+<checkConstraint>
+<implementationDef dbType="Oracle Database 11g" definition="STATUS IN(&apos;CARRINHO&apos;, &apos;PAGO&apos;, &apos;A CAMINHO&apos;, &apos;ENTREGUE&apos;, &apos;CANCELADO&apos;)"/>
+</checkConstraint>
 <ownDataTypeParameters>15,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
