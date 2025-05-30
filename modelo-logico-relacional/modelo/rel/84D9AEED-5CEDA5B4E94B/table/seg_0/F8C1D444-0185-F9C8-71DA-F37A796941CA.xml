@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F59EF071-CAC3-EAA3-EBBE-EDB566EC3EDB" name="SSX_EMAILS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F8C1D444-0185-F9C8-71DA-F37A796941CA" name="SSX_EMAILS">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>998EFF2E-753B-56BF-7593-2010B6FDE2A7</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_email" id="E16B97DE-2460-6795-9AF9-04045459E1F0">
+<Column name="id_email" id="664291DB-3098-9ED2-47A9-5D512212CD67">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>04DCFCAA-80AD-2910-078F-9A00B8A4DDAB</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SSX_USUARIOS_id_usuario" id="5C7CF319-4492-E502-4443-560B476BB5A7">
+<Column name="SSX_USUARIOS_id_usuario" id="B64BA883-3492-402B-5736-EE15B894AAD1">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>2DFBBEF3-BD84-17BF-8536-2C1227A8F958</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,12 +31,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="7489600F-3DB1-7E5E-E4AE-3FA68AEE4AE0" referredColumn="5E448269-83E0-5F98-C2D6-29F8C9D95558"/>
+<colAssociation fkAssociation="594F242F-715F-0DF3-53E7-D0A1840358F8" referredColumn="BD35A1B3-EA77-229B-1AE7-E2D491FEBBCC"/>
 </associations>
 </Column>
-<Column name="email" id="48FC1D5F-7838-D3F2-A2C2-66E45BFD3A18">
+<Column name="email" id="C05D09DB-ACCE-1600-A156-690125CB9CF9">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>D911ADB2-32C9-DAE0-145E-047878F37D10</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,9 +46,9 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ativo" id="4C40FA2F-79A9-2D81-CDA1-54DCE3152797">
+<Column name="ativo" id="805E40F5-3D60-9114-C3FF-56780A81EAE5">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>B7600F41-32B8-EA0F-29CB-63072E6B5153</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -60,27 +60,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5D6E8B7C-8D38-38D5-5C7B-5AE888D225C8" name="SSX_EMAILS_PK">
+<ind_PK_UK id="C9FEF264-DCC1-7898-296E-07A416D68AA1" name="SSX_EMAILS_PK">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>4A57F022-B93D-F1CF-8F82-7CFC320D2D5E</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E16B97DE-2460-6795-9AF9-04045459E1F0"/>
+<colUsage columnID="664291DB-3098-9ED2-47A9-5D512212CD67"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="6A3125BE-A0C5-F35D-8EFE-D213C20DEF85" name="SSX_EMAILS_SSX_USUARIOS_FK">
+<ind_PK_UK id="75D89EB6-3861-252A-3B0C-0F542458AC94" name="SSX_EMAILS_SSX_USUARIOS_FK">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>B438695E-114A-54FE-3A91-50ED94012437</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5C7CF319-4492-E502-4443-560B476BB5A7"/>
+<colUsage columnID="B64BA883-3492-402B-5736-EE15B894AAD1"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

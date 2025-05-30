@@ -108,7 +108,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="C7601485-B370-C656-62B2-E252F1CA87A9" name="SX_ENDERECOS PK">
+<identifier id="C7601485-B370-C656-62B2-E252F1CA87A9" name="SSX_ENDERECOS PK">
 <createdBy>Fernando</createdBy>
 <createdTime>2025-05-29 19:57:53 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
@@ -117,6 +117,7 @@
 <item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>6C7CB86A-EF75-E545-20D7-FAD6473F44DE</newElementsIDs>
 <usedAttributes>
 <attributeRef>6C7CB86A-EF75-E545-20D7-FAD6473F44DE</attributeRef>
 </usedAttributes>

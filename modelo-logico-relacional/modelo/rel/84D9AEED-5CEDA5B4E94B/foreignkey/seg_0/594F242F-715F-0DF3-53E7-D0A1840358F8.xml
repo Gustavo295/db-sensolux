@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="594F242F-715F-0DF3-53E7-D0A1840358F8" containerWithKeyObject="F8C1D444-0185-F9C8-71DA-F37A796941CA" localFKIndex="75D89EB6-3861-252A-3B0C-0F542458AC94" name="SSX_EMAILS_SSX_USUARIOS_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<generatorID>B438695E-114A-54FE-3A91-50ED94012437</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>SSX_USUARIOS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>B0FF1EEC-8022-201E-C8DB-561019B4FB2B</referredTableID>
+<keyObject>06CDBD98-7004-0184-10BB-4739604E6D92</keyObject>
+<referredKeyID>06CDBD98-7004-0184-10BB-4739604E6D92</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_usuario</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

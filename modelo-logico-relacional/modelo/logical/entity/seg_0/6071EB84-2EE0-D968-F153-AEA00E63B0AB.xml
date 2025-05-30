@@ -71,7 +71,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="CE10BFDC-4EE7-AFD1-0F50-DC3EF36F3ADF" name="SX_PEDIDOS PK">
+<identifier id="CE10BFDC-4EE7-AFD1-0F50-DC3EF36F3ADF" name="SSX_PEDIDOS PK">
 <createdBy>Fernando</createdBy>
 <createdTime>2025-05-29 19:58:02 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
@@ -80,6 +80,7 @@
 <item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>B093E8FA-6B86-9E14-AE96-3F2B811D0419</newElementsIDs>
 <usedAttributes>
 <attributeRef>B093E8FA-6B86-9E14-AE96-3F2B811D0419</attributeRef>
 </usedAttributes>

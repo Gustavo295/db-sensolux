@@ -1,5 +1,5 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37BA11E8-BE6E-32F9-BF3B-21698B3FC846" name="SSLX_ALERTAS">
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="37BA11E8-BE6E-32F9-BF3B-21698B3FC846" name="SSX_ALERTAS">
 <createdBy>Fernando</createdBy>
 <createdTime>2025-05-29 19:55:08 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
@@ -107,7 +107,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="A858F649-5883-AF9E-99FD-1FE4F8FB683E" name="SX_ALERTAS PK">
+<identifier id="A858F649-5883-AF9E-99FD-1FE4F8FB683E" name="SSX_ALRT PK">
 <createdBy>Fernando</createdBy>
 <createdTime>2025-05-29 19:57:13 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
@@ -116,6 +116,7 @@
 <item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>580A15BB-AB15-BA0D-EE20-113DCD136FD8</newElementsIDs>
 <usedAttributes>
 <attributeRef>580A15BB-AB15-BA0D-EE20-113DCD136FD8</attributeRef>
 </usedAttributes>

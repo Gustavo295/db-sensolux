@@ -55,7 +55,7 @@
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="52A6C0FB-EE00-766A-F766-6436B727410A" name="SX_USUARIOS PK">
+<identifier id="52A6C0FB-EE00-766A-F766-6436B727410A" name="SSX_USUARIOS PK">
 <createdBy>Fernando</createdBy>
 <createdTime>2025-05-29 19:56:45 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
@@ -64,6 +64,7 @@
 <item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>87E29B3A-5B8A-00CF-E4A2-44D38E9E80D4</newElementsIDs>
 <usedAttributes>
 <attributeRef>87E29B3A-5B8A-00CF-E4A2-44D38E9E80D4</attributeRef>
 </usedAttributes>

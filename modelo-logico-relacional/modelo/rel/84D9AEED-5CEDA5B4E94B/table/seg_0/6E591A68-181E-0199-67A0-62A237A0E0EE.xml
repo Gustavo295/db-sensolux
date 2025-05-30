@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4B2CCD21-2C42-416D-3835-3089A96CC29F" name="SSX_LEITURAS_SENSORES">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6E591A68-181E-0199-67A0-62A237A0E0EE" name="SSX_LEITURAS_SENSORES">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>04A3DB61-BDE0-4F4C-7E1D-94B467CEE0B6</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_leitura_sensor" id="BB40B97F-35CF-AB61-135E-95D848D699CC">
+<Column name="id_leitura_sensor" id="79782630-EC8B-7025-A686-C314859CB810">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>BDB9BA04-2DAB-E75B-403B-0F7A3E4A5758</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,24 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SSX_USUARIOS_id_usuario" id="59410E96-372B-4DD0-3E7C-482583238622">
+<Column name="valor" id="359C0F45-C4A2-C739-3DAB-2CF8CE6F99BA">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
-<generatorID>B37EE151-5DA5-46BF-5AEC-87F6C01CCE3D</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-<previousColumn>false</previousColumn>
-<autoIncrementCycle>false</autoIncrementCycle>
-<associations>
-<colAssociation fkAssociation="71E81848-611C-5B26-5FBD-1B61ED0CEEA9" referredColumn="5E448269-83E0-5F98-C2D6-29F8C9D95558"/>
-</associations>
-</Column>
-<Column name="valor" id="EFFF8540-4720-88A7-0C37-04CC8354D6F4">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>346A0E50-7697-9D32-EC01-A4C0933D9601</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,9 +31,9 @@
 <ownDataTypeParameters>,,2</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="data_hora" id="493BE9B9-8764-14B9-6187-66C7C97576B9">
+<Column name="data_hora" id="CF1C3CFF-0577-B836-DFB0-B852BC83C991">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>56F175CA-959E-EAFB-E8B6-2501F5E48FE7</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -57,29 +42,44 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="SSX_USUARIOS_id_usuario" id="D8228271-F6E4-89AD-4B8D-3D5968A3D8A9">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<generatorID>8CCE4509-64D1-5291-486C-90B6D03F6A7B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DC79AEAC-810F-6887-30B2-B55FB10DCA3B" referredColumn="BD35A1B3-EA77-229B-1AE7-E2D491FEBBCC"/>
+</associations>
+</Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="E0B08A4B-68E6-6EDC-EE0F-DE044F0128A6" name="SSX_LEITURAS_SENSORES_PK">
+<ind_PK_UK id="5BFFBE19-D8F1-1EB0-ADEC-ACFC78B46C04" name="SSX_LEITURAS_SENSORES_PK">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>20694094-D4CC-91BE-770D-FFF863716B49</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="BB40B97F-35CF-AB61-135E-95D848D699CC"/>
+<colUsage columnID="79782630-EC8B-7025-A686-C314859CB810"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="628F5C90-D831-0FF0-31B0-86625C94CEF1" name="SSX_LEITURAS_SENSORES_SSX_USUARIOS_FK">
+<ind_PK_UK id="0142474A-FC0F-5D95-25FA-BD4F44380759" name="SSX_LTRS_USUARIOS_FK">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
-<generatorID>3F83CD1D-82D3-DA18-D8C1-F7038961D2E8</generatorID>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<generatorID>62E14FF7-C83F-8A2C-E63F-29761FFB4669</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="59410E96-372B-4DD0-3E7C-482583238622"/>
+<colUsage columnID="D8228271-F6E4-89AD-4B8D-3D5968A3D8A9"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

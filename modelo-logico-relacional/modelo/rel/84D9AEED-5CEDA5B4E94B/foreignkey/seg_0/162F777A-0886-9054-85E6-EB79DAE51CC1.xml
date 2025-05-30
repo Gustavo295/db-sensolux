@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="162F777A-0886-9054-85E6-EB79DAE51CC1" containerWithKeyObject="E68B460D-9383-8985-1BF0-B6FC9CA266E3" localFKIndex="1403A778-0DD1-0E7C-8EF4-4BF93D72EA3A" name="SSX_ITENS_PEDIDO_SSX_KITS_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<generatorID>C42BC847-BF63-7C78-9542-C54C0CD6701E</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>SSX_KITS</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>8484CD62-B436-3D9D-B571-5C4E65536804</referredTableID>
+<keyObject>AD1A491F-4E13-09D7-B5C4-5619EA0C451E</keyObject>
+<referredKeyID>AD1A491F-4E13-09D7-B5C4-5619EA0C451E</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_kit</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

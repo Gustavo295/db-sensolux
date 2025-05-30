@@ -27,20 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_usuario" id="B37EE151-5DA5-46BF-5AEC-87F6C01CCE3D">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:38:06 UTC</createdTime>
-<generatorID>3F83CD1D-82D3-DA18-D8C1-F7038961D2E8</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
-</engineerTo>
-<referedAttribute>87E29B3A-5B8A-00CF-E4A2-44D38E9E80D4</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="valor" id="346A0E50-7697-9D32-EC01-A4C0933D9601">
 <createdBy>Fernando</createdBy>
 <createdTime>2025-05-29 21:13:46 UTC</createdTime>
@@ -66,9 +52,23 @@
 <logicalDatatype>LOGDT008</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="id_usuario" id="8CCE4509-64D1-5291-486C-90B6D03F6A7B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 12:24:24 UTC</createdTime>
+<generatorID>62E14FF7-C83F-8A2C-E63F-29761FFB4669</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
+</engineerTo>
+<referedAttribute>87E29B3A-5B8A-00CF-E4A2-44D38E9E80D4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="20694094-D4CC-91BE-770D-FFF863716B49" name="SX_LEITURAS_SENSORES PK">
+<identifier id="20694094-D4CC-91BE-770D-FFF863716B49" name="SSX_LTSR PK">
 <createdBy>Fernando</createdBy>
 <createdTime>2025-05-29 19:57:44 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
@@ -77,6 +77,7 @@
 <item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="false"/>
 </engineerTo>
 <pk>true</pk>
+<newElementsIDs>BDB9BA04-2DAB-E75B-403B-0F7A3E4A5758</newElementsIDs>
 <usedAttributes>
 <attributeRef>BDB9BA04-2DAB-E75B-403B-0F7A3E4A5758</attributeRef>
 </usedAttributes>

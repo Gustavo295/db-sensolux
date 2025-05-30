@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C8D0CAF2-5FCE-A5CA-5ACB-35FBF546B167" name="SSX_USUARIOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B0FF1EEC-8022-201E-C8DB-561019B4FB2B" name="SSX_USUARIOS">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>0189F69F-A35F-3262-F6EA-5B0A0A184F00</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_usuario" id="5E448269-83E0-5F98-C2D6-29F8C9D95558">
+<Column name="id_usuario" id="BD35A1B3-EA77-229B-1AE7-E2D491FEBBCC">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>87E29B3A-5B8A-00CF-E4A2-44D38E9E80D4</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nome" id="8D863BAB-B94C-D2F2-7E5E-BE06597DD220">
+<Column name="nome" id="55B536A2-9107-B26F-127E-3D68513858B7">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>16D73DDE-2386-77BF-D434-4DDD305195EB</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,9 +31,9 @@
 <ownDataTypeParameters>60,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="senha" id="8795E447-481B-A72E-DE04-4A5515A698AF">
+<Column name="senha" id="813580CF-FAE5-5B03-9FA0-07691A9D95E0">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>2D72E526-5EA0-CB02-0DA6-32CB71099FF7</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,16 +45,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="FB18DF02-4638-5E5D-1F18-6D3BAA531A70" name="SSX_USUARIOS_PK">
+<ind_PK_UK id="06CDBD98-7004-0184-10BB-4739604E6D92" name="SSX_USUARIOS_PK">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>52A6C0FB-EE00-766A-F766-6436B727410A</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="5E448269-83E0-5F98-C2D6-29F8C9D95558"/>
+<colUsage columnID="BD35A1B3-EA77-229B-1AE7-E2D491FEBBCC"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

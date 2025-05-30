@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1FFA6550-017D-C3E7-45B9-D8D8D763B6B5" name="SSX_ENDERECOS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="29CD7450-55EC-0D35-73CD-9AD8CC4BFF5A" name="SSX_ENDERECOS">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>9F507655-45AF-FA6D-D2F3-B9FB1C72322C</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_endereco" id="3B4D189A-32B0-E18D-66B0-2B8C935C60D5">
+<Column name="id_endereco" id="E8B9EFD2-95B6-05CB-33EC-FDE7003122D0">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>6C7CB86A-EF75-E545-20D7-FAD6473F44DE</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SSX_USUARIOS_id_usuario" id="1CE5AA07-611A-1A8D-872F-97FDE20E8945">
+<Column name="SSX_USUARIOS_id_usuario" id="142ABA96-EE46-85DD-4BFB-2DBE6534A785">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>D2FD780B-8DE2-8BA5-9B1E-3DE8BE3DA337</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,12 +31,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="2F3A44E8-1EE1-666A-513F-130807706D78" referredColumn="5E448269-83E0-5F98-C2D6-29F8C9D95558"/>
+<colAssociation fkAssociation="2AAFFC67-7B22-8829-4AB5-2B233DF2B042" referredColumn="BD35A1B3-EA77-229B-1AE7-E2D491FEBBCC"/>
 </associations>
 </Column>
-<Column name="cep" id="208573BA-BC92-A57A-4BBF-1FB333D92299">
+<Column name="cep" id="4ECCB63D-15B8-15BC-B8F9-505FE8B91D69">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>1E71F42B-1753-9186-AB6C-A94ADA193C64</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,9 +46,9 @@
 <ownDataTypeParameters>9,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="estado" id="D92A0AE1-037A-9E6B-DDF4-7EDD2E1C5BAF">
+<Column name="estado" id="C935D759-4788-690D-4BF4-D4FAB559A11B">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>B45ADE9D-33B5-4B66-F887-C212865DECDF</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,9 +58,9 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cidade" id="6E4C247E-0CF8-D6E9-862C-701A342B6017">
+<Column name="cidade" id="D2A72BBF-7555-64BE-A88B-D20D4084C505">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>E560422D-DD90-3B2B-D460-4C5436723914</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -70,9 +70,9 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="bairro" id="8E7A7B1A-5A49-EE16-B02F-EAA15755F5AC">
+<Column name="bairro" id="8E2CCD2D-95B6-593F-8C41-27E96F670A55">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>8A8FB221-C634-D38E-E4CB-62DB8AE4DFD4</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -82,9 +82,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="logradouro" id="FD29DDE7-E1CA-6EF6-6F8F-0D51AC5FB9CE">
+<Column name="logradouro" id="30EE39B3-CD0C-48C3-9DF2-1550611FAE85">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>31B27813-3A49-5FC6-8A5B-747E0EA4B007</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -96,27 +96,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="5BD952AA-B768-F0FD-08D6-4BCBFD602A44" name="SSX_ENDERECOS_PK">
+<ind_PK_UK id="BD896C0E-04EC-92F8-F326-D4C8EA2AB4CE" name="SSX_ENDERECOS_PK">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>C7601485-B370-C656-62B2-E252F1CA87A9</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="3B4D189A-32B0-E18D-66B0-2B8C935C60D5"/>
+<colUsage columnID="E8B9EFD2-95B6-05CB-33EC-FDE7003122D0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="4B874A22-D827-F568-5E4A-6ED05331244A" name="SSX_ENDERECOS_SSX_USUARIOS_FK">
+<ind_PK_UK id="450F055D-15D3-E673-849F-4102123DFD38" name="SSX_ENDERECOS_SSX_USUARIOS_FK">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 11:42:35 UTC</createdTime>
+<createdTime>2025-05-30 12:26:58 UTC</createdTime>
 <generatorID>6E0103A2-0DF0-321F-A0F1-EE642E9DF382</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="1CE5AA07-611A-1A8D-872F-97FDE20E8945"/>
+<colUsage columnID="142ABA96-EE46-85DD-4BFB-2DBE6534A785"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
