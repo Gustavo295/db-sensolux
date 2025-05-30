@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8484CD62-B436-3D9D-B571-5C4E65536804" name="SSX_KITS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8388AC25-10CE-221E-24BA-3732156C0143" name="SSX_PRODUTOS">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<createdTime>2025-05-30 14:54:29 UTC</createdTime>
 <generatorID>4E886E82-D5A8-E941-5FD1-A8C612573057</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_kit" id="4052757E-93E7-2149-C240-1A38E933A8A1">
+<Column name="id_produto" id="EF857DB1-00EC-A690-338B-A15C60C34D97">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<createdTime>2025-05-30 14:54:29 UTC</createdTime>
 <generatorID>09CC7C79-FCBA-B053-9EC0-A2988EA12C6B</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,24 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nome" id="49517BE0-057C-D4CE-5417-2C8C74DA9F73">
+<Column name="SSX_ITENS_PEDIDO_id_item_pedido" id="216DD3FE-DDDC-D480-558B-A63834131727">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<createdTime>2025-05-30 14:54:29 UTC</createdTime>
+<generatorID>BC904145-5F42-E6F6-324A-B8C5110C8196</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1662106F-DE24-DCC3-DE09-8025C8F12958" referredColumn="25959C6E-D148-5F4D-37D3-739297EB31D2"/>
+</associations>
+</Column>
+<Column name="nome" id="826A94AA-2BE4-06D1-02FC-E1567ED3DD6B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 14:54:29 UTC</createdTime>
 <generatorID>68A77709-A551-7CFB-969C-B964CAC14D16</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,9 +46,9 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="descricao" id="4D3121DF-9184-F1BD-DECF-198B43516118">
+<Column name="descricao" id="8D2471D3-E75E-8467-157D-E86D7D03D47A">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<createdTime>2025-05-30 14:54:29 UTC</createdTime>
 <generatorID>1B4525A0-1A6D-E61E-6448-EB8CEA650D35</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -43,9 +58,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="preco" id="72F086EF-867D-E663-B582-9D7A8A15150B">
+<Column name="preco_unitario" id="332C73A7-23C5-FB10-5137-6F7ACD40923B">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<createdTime>2025-05-30 14:54:29 UTC</createdTime>
 <generatorID>AC219832-E6CA-4D5D-E8EE-73F224190CAA</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,16 +73,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="AD1A491F-4E13-09D7-B5C4-5619EA0C451E" name="SSX_KITS_PK">
+<ind_PK_UK id="D6FF8AA8-DD13-5A02-1A0D-7920F555D0CF" name="SSX_PRODUTOS_PK">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<createdTime>2025-05-30 14:54:29 UTC</createdTime>
 <generatorID>F20D94D9-F142-DE85-1F52-577D303228A2</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="4052757E-93E7-2149-C240-1A38E933A8A1"/>
+<colUsage columnID="EF857DB1-00EC-A690-338B-A15C60C34D97"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="70010584-C6CC-9CBC-31B4-25B5F68ADCCE" name="SSX_PRODUTOS_SSX_ITENS_PEDIDO_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 14:54:29 UTC</createdTime>
+<generatorID>331AA797-A490-F67D-4697-19BAAE7E5850</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="216DD3FE-DDDC-D480-558B-A63834131727"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

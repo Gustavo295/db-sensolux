@@ -27,7 +27,7 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_kit" id="885E8A1B-E0A6-72F7-F175-1FAE4E2FFBA1">
+<Attribute name="id_produto" id="885E8A1B-E0A6-72F7-F175-1FAE4E2FFBA1">
 <createdBy>labsfiap</createdBy>
 <createdTime>2025-05-30 11:37:42 UTC</createdTime>
 <generatorID>5975E33C-9C24-C9F2-88D9-556588938196</generatorID>

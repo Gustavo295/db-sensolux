@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AE3962F-260F-A9F4-6206-8FC5054274C3" name="SSX_ALERTAS">
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="6D3DAE49-C22D-D64F-2C02-B1C4E9E6BF72" name="SSX_ALERTAS">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<createdTime>2025-05-30 14:54:29 UTC</createdTime>
 <generatorID>37BA11E8-BE6E-32F9-BF3B-21698B3FC846</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_alerta" id="940E71D8-0FFF-D1CB-2D54-48B706EBA955">
+<Column name="id_alerta" id="416543FD-CDAC-C2B7-A3FF-1D8D2DE1F642">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<createdTime>2025-05-30 14:54:29 UTC</createdTime>
 <generatorID>580A15BB-AB15-BA0D-EE20-113DCD136FD8</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SSX_LTSR_ID_LSR" id="C32FDE55-0BCC-C126-C52D-AA2E6677E66F">
+<Column name="SSX_LEITURAS_SENSORES_id_leitura_sensor" id="03F9AF67-760F-00CC-4B3B-6E5AB8669DF0">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<createdTime>2025-05-30 14:54:29 UTC</createdTime>
 <generatorID>E116F648-99E2-E2EB-EBAD-045D15315668</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,12 +31,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="3AC57DF5-B842-6155-2A31-024BEA5A7C87" referredColumn="79782630-EC8B-7025-A686-C314859CB810"/>
+<colAssociation fkAssociation="9CB70355-2956-0A4A-E4E4-5A6E103B6EF6" referredColumn="6A1633AF-741D-ADB7-A8C8-77159CFB9C29"/>
 </associations>
 </Column>
-<Column name="tipo_alerta" id="167BB89D-2F6A-69CD-878E-4118485DAE0D">
+<Column name="tipo_alerta" id="2F90C88B-3DF4-3AAE-3ECB-96C7CEBFC4B9">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<createdTime>2025-05-30 14:54:29 UTC</createdTime>
 <generatorID>58E1282A-867B-0503-4512-D3DB4DCC4481</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,9 +46,9 @@
 <ownDataTypeParameters>12,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="mensagem" id="F4B86893-F8F9-E860-BB7C-BC3813336988">
+<Column name="mensagem" id="F2045F95-D873-2549-C31C-6EF0C6504B39">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<createdTime>2025-05-30 14:54:29 UTC</createdTime>
 <generatorID>D816C34B-6006-16BE-FF8A-4E6AC3F770E9</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,9 +58,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="nivel_risco" id="183D9BB2-14C9-314D-1AEB-37DB1B9CF953">
+<Column name="nivel_risco" id="FEEAA41F-4C5D-C828-F331-61691EF26057">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<createdTime>2025-05-30 14:54:29 UTC</createdTime>
 <generatorID>4D1CDBF3-EAFD-CF15-29FE-3B98B49598E2</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -79,9 +79,9 @@
 </rangeDef>
 </listOfRanges>
 </Column>
-<Column name="status" id="5234D281-DA9D-7FFC-E85E-0D87B968889B">
+<Column name="status" id="30194E46-3916-BEA1-90A4-44FDF65D5CDA">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<createdTime>2025-05-30 14:54:29 UTC</createdTime>
 <generatorID>3931F054-D42D-6E53-36EF-9DD1BE9510D5</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -96,38 +96,38 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="F7C83E65-37B8-A9E5-4C3F-A31EA07532C4" name="SSX_ALERTAS_PK">
+<ind_PK_UK id="9D787D87-AAEA-0200-B874-82965732F79C" name="SSX_ALERTAS_PK">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<createdTime>2025-05-30 14:54:29 UTC</createdTime>
 <generatorID>A858F649-5883-AF9E-99FD-1FE4F8FB683E</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="940E71D8-0FFF-D1CB-2D54-48B706EBA955"/>
+<colUsage columnID="416543FD-CDAC-C2B7-A3FF-1D8D2DE1F642"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="507979DB-03A3-49F7-1AB8-6071D2AB51DF" name="SSX_ALERTAS__IDX">
+<ind_PK_UK id="0879441C-71BE-B928-95FA-69F4A53C5CD8" name="SSX_ALERTAS__IDX">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<createdTime>2025-05-30 14:54:29 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <indexState>Unique Plain Index</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <relationGeneratorID>FA9171EB-A67F-2231-1920-937D92939206</relationGeneratorID>
 <indexColumnUsage>
-<colUsage columnID="C32FDE55-0BCC-C126-C52D-AA2E6677E66F"/>
+<colUsage columnID="03F9AF67-760F-00CC-4B3B-6E5AB8669DF0"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="FD8DED45-D844-044A-CE24-479C69AB5976" name="SSX_ALRT_LEITURAS_SENSORES_FK">
+<ind_PK_UK id="20C338B6-B591-D7A9-E38C-5FDE257EA14C" name="SSX_ALERTAS_SSX_LEITURAS_SENSORES_FK">
 <createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 12:26:58 UTC</createdTime>
+<createdTime>2025-05-30 14:54:29 UTC</createdTime>
 <generatorID>FA9171EB-A67F-2231-1920-937D92939206</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="C32FDE55-0BCC-C126-C52D-AA2E6677E66F"/>
+<colUsage columnID="03F9AF67-760F-00CC-4B3B-6E5AB8669DF0"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

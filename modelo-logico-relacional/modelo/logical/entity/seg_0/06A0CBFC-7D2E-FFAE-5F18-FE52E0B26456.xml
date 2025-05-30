@@ -1,7 +1,7 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="998EFF2E-753B-56BF-7593-2010B6FDE2A7" name="SSX_EMAILS">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-05-29 19:54:13 UTC</createdTime>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="06A0CBFC-7D2E-FFAE-5F18-FE52E0B26456" name="SSX_USUARIOS_EMAIL">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 14:50:44 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
@@ -15,9 +15,9 @@
 <minVolumes>0</minVolumes>
 <normalForm>Third</normalForm>
 <attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
-<Attribute name="id_email" id="04DCFCAA-80AD-2910-078F-9A00B8A4DDAB">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-05-29 19:57:03 UTC</createdTime>
+<Attribute name="id_usuario_email" id="CA8AB917-BD1F-F2DE-C68F-28BF9FA1DCCC">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 14:51:15 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
@@ -27,46 +27,46 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="email" id="D911ADB2-32C9-DAE0-145E-047878F37D10">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-05-29 21:17:19 UTC</createdTime>
+<Attribute name="id_usuario" id="AF15B140-14D0-6FA6-D283-8E9B2463D69F">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 14:51:35 UTC</createdTime>
+<generatorID>C71B3B8E-060E-1F0C-5F6B-288B348707A8</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
 </engineerTo>
+<referedAttribute>87E29B3A-5B8A-00CF-E4A2-44D38E9E80D4</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>255</dataTypeSize>
-<ownDataTypeParameters>255,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="ativo" id="B7600F41-32B8-EA0F-29CB-63072E6B5153">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-05-29 21:18:00 UTC</createdTime>
+<Attribute name="id_email" id="125E4759-7D16-5822-BFD8-0CA9A313D391">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 14:51:39 UTC</createdTime>
+<generatorID>8E715D23-3109-D517-5B5B-A852DB4AC2BA</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
 </engineerTo>
+<referedAttribute>04DCFCAA-80AD-2910-078F-9A00B8A4DDAB</referedAttribute>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT006</logicalDatatype>
-<dataTypeSize>1</dataTypeSize>
-<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>
 <identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
-<identifier id="4A57F022-B93D-F1CF-8F82-7CFC320D2D5E" name="SSX_EMAILS PK">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-05-29 19:57:48 UTC</createdTime>
+<identifier id="598F5CB5-A84C-5B4F-4B7D-85202D469C86" name="SSX_USUARIOS_EMAIL PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 14:51:30 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
-<shouldEngineer>false</shouldEngineer>
 <engineerTo>
-<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="false"/>
+<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
 </engineerTo>
 <pk>true</pk>
-<newElementsIDs>04DCFCAA-80AD-2910-078F-9A00B8A4DDAB</newElementsIDs>
 <usedAttributes>
-<attributeRef>04DCFCAA-80AD-2910-078F-9A00B8A4DDAB</attributeRef>
+<attributeRef>CA8AB917-BD1F-F2DE-C68F-28BF9FA1DCCC</attributeRef>
 </usedAttributes>
 </identifier>
 </identifiers>
