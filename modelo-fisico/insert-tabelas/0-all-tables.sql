@@ -85,3 +85,69 @@ insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, pr
 insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (8, 8, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
 insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (9, 9, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
 insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (10, 10, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
+
+-- UPDATE TABLE
+UPDATE SSX_USUARIOS
+SET nome = 'Gustavo Matias'
+WHERE id_usuario = 1;
+
+UPDATE SSX_PEDIDOS
+SET status = 'ENTREGUE'
+WHERE id_pedido = 9;
+
+UPDATE SSX_EMAILS
+SET email = 'gustavomatias@gmail.com'
+WHERE id_email = 1;
+
+UPDATE SSX_ENDERECOS
+SET cep = '01001-000'
+WHERE id_endereco = 1;
+
+UPDATE SSX_USUARIOS_EMAIL
+SET ssx_usuarios_id_usuario = 1
+WHERE id_usuario_email = 1;
+
+UPDATE SSX_LEITURAS_SENSORES
+SET ssx_usuarios_id_usuario = 1
+WHERE id_leitura_sensor = 2;
+
+UPDATE SSX_ITENS_PEDIDO
+SET ssx_usuarios_id_usuario = 2
+WHERE id_item_pedido = 1;
+
+UPDATE SSX_PRODUTOS
+SET sensor = 'Sensor 3 em 1'
+WHERE id_produto = 2;
+
+-- DELETE ROW
+
+DELETE FROM SSX_ALERTAS
+WHERE id_alerta = 10;
+
+DELETE FROM SSX_SENSORES
+WHERE id_sensor = 10;
+
+DELETE FROM SSX_PRODUTOS
+WHERE id_produto = 10;
+
+DELETE FROM SSX_ITENS_PEDIDO
+WHERE id_item_pedido = 10;
+
+DELETE FROM SSX_LEITURAS_SENSORES
+WHERE id_leitura_sensor = 10;
+
+DELETE FROM SSX_USUARIOS_EMAIL
+WHERE id_usuario_email = 10;
+
+DELETE FROM SSX_ENDERECOS
+WHERE id_endereco = 10;
+
+DELETE FROM SSX_EMAILS
+WHERE id_email = 10;
+
+DELETE FROM SSX_PEDIDOS
+WHERE id_pedido = 10;
+
+DELETE FROM SSX_USUARIOS
+WHERE id_usuario = 10;
+

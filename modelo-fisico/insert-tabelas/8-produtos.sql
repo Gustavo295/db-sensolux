@@ -1,5 +1,5 @@
 insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (1, 1, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
-insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (2, 2, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
+insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (2, 2, 'Sensor 111111', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
 insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (3, 3, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
 insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (4, 4, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
 insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (5, 5, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
@@ -8,3 +8,10 @@ insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, pr
 insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (8, 8, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
 insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (9, 9, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
 insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (10, 10, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
+
+UPDATE SSX_PRODUTOS
+SET sensor = 'Sensor 3 em 1'
+WHERE id_produto = 2;
+
+DELETE FROM SSX_PRODUTOS
+WHERE id_produto = 10;

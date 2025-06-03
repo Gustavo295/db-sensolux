@@ -14,4 +14,4 @@ SET cep = '01001-000'
 WHERE id_endereco = 1;
 
 DELETE FROM SSX_ENDERECOS
-WHERE id_email = 10;
+WHERE id_endereco = 10;
