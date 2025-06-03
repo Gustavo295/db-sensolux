@@ -27,9 +27,49 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="valor" id="346A0E50-7697-9D32-EC01-A4C0933D9601">
+<Attribute name="id_usuario" id="8CCE4509-64D1-5291-486C-90B6D03F6A7B">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-05-30 12:24:24 UTC</createdTime>
+<generatorID>62E14FF7-C83F-8A2C-E63F-29761FFB4669</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
+</engineerTo>
+<referedAttribute>87E29B3A-5B8A-00CF-E4A2-44D38E9E80D4</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="temperatura" id="346A0E50-7697-9D32-EC01-A4C0933D9601">
 <createdBy>Fernando</createdBy>
 <createdTime>2025-05-29 21:13:46 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="umidade" id="04C35C83-D76C-F0D6-1786-D911B6628BC1">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:12:08 UTC</createdTime>
+<ownerDesignName>modelo</ownerDesignName>
+<engineerTo>
+<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+</Attribute>
+<Attribute name="radiacao" id="69ECC3E2-55FC-0A7B-3F6E-BF2C28FF690D">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:12:08 UTC</createdTime>
 <ownerDesignName>modelo</ownerDesignName>
 <engineerTo>
 <item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
@@ -49,21 +89,7 @@
 </engineerTo>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
-<logicalDatatype>LOGDT008</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
-<Attribute name="id_usuario" id="8CCE4509-64D1-5291-486C-90B6D03F6A7B">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 12:24:24 UTC</createdTime>
-<generatorID>62E14FF7-C83F-8A2C-E63F-29761FFB4669</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
-</engineerTo>
-<referedAttribute>87E29B3A-5B8A-00CF-E4A2-44D38E9E80D4</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
+<logicalDatatype>LOGDT015</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
 </attributes>

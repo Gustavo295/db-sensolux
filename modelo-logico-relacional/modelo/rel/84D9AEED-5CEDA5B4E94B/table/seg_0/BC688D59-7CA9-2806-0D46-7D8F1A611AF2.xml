@@ -1,0 +1,110 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC688D59-7CA9-2806-0D46-7D8F1A611AF2" name="SSX_LEITURAS_SENSORES">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
+<generatorID>04A3DB61-BDE0-4F4C-7E1D-94B467CEE0B6</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_leitura_sensor" id="492E2BA9-822E-8238-B3BB-A57BFEC949FC">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
+<generatorID>BDB9BA04-2DAB-E75B-403B-0F7A3E4A5758</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="SSX_USUARIOS_id_usuario" id="AF39FDEA-BEDA-ECAB-4EAE-52ACBCDB962F">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
+<generatorID>8CCE4509-64D1-5291-486C-90B6D03F6A7B</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="527744A3-5C28-AC79-CEE2-E9121D3DAE9C" referredColumn="1EFF36D4-58F6-8B44-0121-762C951369B1"/>
+</associations>
+</Column>
+<Column name="temperatura" id="009BE402-E8A1-B8F1-2551-59DAAE86D14B">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
+<generatorID>346A0E50-7697-9D32-EC01-A4C0933D9601</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="umidade" id="088F3C28-CE5A-8F3C-4F10-4245B6254755">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
+<generatorID>04C35C83-D76C-F0D6-1786-D911B6628BC1</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="radiacao" id="989BEA39-ED0B-124F-253B-34778DA96D1D">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
+<generatorID>69ECC3E2-55FC-0A7B-3F6E-BF2C28FF690D</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT020</logicalDatatype>
+<dataTypeScale>2</dataTypeScale>
+<ownDataTypeParameters>,,2</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_hora" id="8BA493BE-C1FB-17D7-71A3-D9C300050E44">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
+<generatorID>56F175CA-959E-EAFB-E8B6-2501F5E48FE7</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT015</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="461CA6AE-0AF1-E0F0-B46D-AF09CA14FF1F" name="SSX_LEITURAS_SENSORES_PK">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
+<generatorID>20694094-D4CC-91BE-770D-FFF863716B49</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="492E2BA9-822E-8238-B3BB-A57BFEC949FC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BA1E32D0-2873-C562-F8BC-B60663CD31F7" name="SSX_LTRS_SSX_USUARIOS_FK">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
+<generatorID>62E14FF7-C83F-8A2C-E63F-29761FFB4669</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AF39FDEA-BEDA-ECAB-4EAE-52ACBCDB962F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

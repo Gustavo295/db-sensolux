@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F34E6AF-63F8-26A1-1FDC-A6D114E10AD3" name="SSX_ENDERECOS">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 14:54:29 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7CF2BD6E-56EB-DD7B-1C05-3264E041276A" name="SSX_ENDERECOS">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
 <generatorID>9F507655-45AF-FA6D-D2F3-B9FB1C72322C</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_endereco" id="7F0D2DE9-8803-46DB-5D90-6DF7DC2583E9">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 14:54:29 UTC</createdTime>
+<Column name="id_endereco" id="31C64DA1-0A69-91FC-EFF4-A48B473AB6B2">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
 <generatorID>6C7CB86A-EF75-E545-20D7-FAD6473F44DE</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="SSX_USUARIOS_id_usuario" id="E6A7AF3E-7F1B-8B95-B72B-64182FD6F4F4">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 14:54:29 UTC</createdTime>
+<Column name="SSX_USUARIOS_id_usuario" id="7955FD24-5A8A-61F0-B852-59601287DDF3">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
 <generatorID>D2FD780B-8DE2-8BA5-9B1E-3DE8BE3DA337</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,12 +31,12 @@
 <previousColumn>false</previousColumn>
 <autoIncrementCycle>false</autoIncrementCycle>
 <associations>
-<colAssociation fkAssociation="FD70A0E0-CC3D-6CBC-1DD9-D0C1BE6BACAE" referredColumn="3B192DFF-4412-E89B-3709-E96CD116AE78"/>
+<colAssociation fkAssociation="FFA285CC-8F45-17EA-F103-83474786FB3C" referredColumn="1EFF36D4-58F6-8B44-0121-762C951369B1"/>
 </associations>
 </Column>
-<Column name="cep" id="A5765EAA-2A62-9419-2861-F2994FCAED60">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 14:54:29 UTC</createdTime>
+<Column name="cep" id="CDA8C5F2-26F1-EE7B-49F0-ED019709CEEE">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
 <generatorID>1E71F42B-1753-9186-AB6C-A94ADA193C64</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -46,9 +46,9 @@
 <ownDataTypeParameters>9,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="estado" id="C6396D24-0375-89F1-44F4-B8400CABA814">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 14:54:29 UTC</createdTime>
+<Column name="estado" id="24BA42A6-F6AB-87B0-B7A8-ACD3FE175523">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
 <generatorID>B45ADE9D-33B5-4B66-F887-C212865DECDF</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -58,9 +58,9 @@
 <ownDataTypeParameters>20,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="cidade" id="819ABFC2-6B6F-BE98-1205-C9F19F65FD8E">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 14:54:29 UTC</createdTime>
+<Column name="cidade" id="97FE956B-442E-B9BD-5E3B-6A215C8CE7C0">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
 <generatorID>E560422D-DD90-3B2B-D460-4C5436723914</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -70,9 +70,9 @@
 <ownDataTypeParameters>30,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="bairro" id="2496595C-EFD4-C48E-4AC0-9B5E95F572BC">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 14:54:29 UTC</createdTime>
+<Column name="bairro" id="1D743F07-6FA1-44DA-BD55-69C4FC912009">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
 <generatorID>8A8FB221-C634-D38E-E4CB-62DB8AE4DFD4</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -82,9 +82,9 @@
 <ownDataTypeParameters>50,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="logradouro" id="5AAF8E16-20E4-0310-0FF7-0CCBAB4EA0C1">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 14:54:29 UTC</createdTime>
+<Column name="logradouro" id="36C26F53-B395-DF2A-0728-4CA12F3EBF3B">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
 <generatorID>31B27813-3A49-5FC6-8A5B-747E0EA4B007</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -96,27 +96,27 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7558C918-903B-AA08-0503-3EE349FEFBE3" name="SSX_ENDERECOS_PK">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 14:54:29 UTC</createdTime>
+<ind_PK_UK id="FD9A3DD2-A630-6607-C23D-B088E2DF74D9" name="SSX_ENDERECOS_PK">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
 <generatorID>C7601485-B370-C656-62B2-E252F1CA87A9</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="7F0D2DE9-8803-46DB-5D90-6DF7DC2583E9"/>
+<colUsage columnID="31C64DA1-0A69-91FC-EFF4-A48B473AB6B2"/>
 </indexColumnUsage>
 </ind_PK_UK>
-<ind_PK_UK id="67DBA9C0-00E3-2186-7755-ACA3502DBF94" name="SSX_ENDERECOS_SSX_USUARIOS_FK">
-<createdBy>labsfiap</createdBy>
-<createdTime>2025-05-30 14:54:29 UTC</createdTime>
+<ind_PK_UK id="E81ED3E2-984E-D2DF-9445-23FF465F101D" name="SSX_ENDERECOS_SSX_USUARIOS_FK">
+<createdBy>Fernando</createdBy>
+<createdTime>2025-06-02 18:21:17 UTC</createdTime>
 <generatorID>6E0103A2-0DF0-321F-A0F1-EE642E9DF382</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <indexState>Foreign Key</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="E6A7AF3E-7F1B-8B95-B72B-64182FD6F4F4"/>
+<colUsage columnID="7955FD24-5A8A-61F0-B852-59601287DDF3"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>
