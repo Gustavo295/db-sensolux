@@ -256,4 +256,4 @@ FROM
 GROUP BY 
     TO_CHAR(data_pedido, 'MM-YYYY'), status
 ORDER BY 
-    mes_ano, status;
+     mes_ano, status;
