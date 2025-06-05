@@ -51,8 +51,8 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>12</dataTypeSize>
-<ownDataTypeParameters>12,,</ownDataTypeParameters>
+<dataTypeSize>16</dataTypeSize>
+<ownDataTypeParameters>16,,</ownDataTypeParameters>
 </Attribute>
 <Attribute name="mensagem" id="D816C34B-6006-16BE-FF8A-4E6AC3F770E9">
 <createdBy>Fernando</createdBy>
@@ -77,9 +77,6 @@
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>
 <logicalDatatype>LOGDT011</logicalDatatype>
-<checkConstraint>
-<implementationDef dbType="Oracle Database 11g" definition="STATUS IN (1,2,3)"/>
-</checkConstraint>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <listOfRanges>
 <rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">

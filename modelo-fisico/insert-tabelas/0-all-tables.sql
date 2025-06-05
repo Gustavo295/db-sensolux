@@ -9,16 +9,16 @@ insert into SSX_USUARIOS (id_usuario, nome, senha) values (8, 'Michele Santos', 
 insert into SSX_USUARIOS (id_usuario, nome, senha) values (9, 'Caio Oliveira', 'Olive1ra');
 insert into SSX_USUARIOS (id_usuario, nome, senha) values (10, 'Luan Junior', 'Jun1or');
 
-insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (1, TO_DATE('29-05-2025', 'DD-MM-YYYY'), 169.90, 'PAGO');
-insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (2, TO_DATE('20-05-2025', 'DD-MM-YYYY'), 169.90, 'A CAMINHO');
-insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (3, TO_DATE('01-04-2025', 'DD-MM-YYYY'), 169.90, 'ENTREGUE');
-insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (4, TO_DATE('20-04-2025', 'DD-MM-YYYY'), 169.90, 'ENTREGUE');
-insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (5, TO_DATE('29-05-2025', 'DD-MM-YYYY'), 169.90, 'PAGO');
-insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (6, TO_DATE('30-05-2025', 'DD-MM-YYYY'), 169.90, 'CARRINHO');
-insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (7, TO_DATE('15-05-2025', 'DD-MM-YYYY'), 169.90, 'ENTREGUE');
-insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (8, TO_DATE('06-03-2025', 'DD-MM-YYYY'), 169.90, 'ENTREGUE');
-insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (9, TO_DATE('19-05-2025', 'DD-MM-YYYY'), 169.90, 'PAGO');
-insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (10, TO_DATE('03-05-2025', 'DD-MM-YYYY'), 169.90, 'CANCELADO');
+insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (1, TO_DATE('29-05-2025', 'DD-MM-YYYY'), 209.90, 'PAGO');
+insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (2, TO_DATE('20-05-2025', 'DD-MM-YYYY'), 129.90, 'A CAMINHO');
+insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (3, TO_DATE('01-04-2025', 'DD-MM-YYYY'), 129.90, 'ENTREGUE');
+insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (4, TO_DATE('20-04-2025', 'DD-MM-YYYY'), 129.90, 'ENTREGUE');
+insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (5, TO_DATE('29-05-2025', 'DD-MM-YYYY'), 299.90, 'PAGO');
+insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (6, TO_DATE('30-05-2025', 'DD-MM-YYYY'), 299.90, 'CARRINHO');
+insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (7, TO_DATE('15-05-2025', 'DD-MM-YYYY'), 129.90, 'ENTREGUE');
+insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (8, TO_DATE('06-03-2025', 'DD-MM-YYYY'), 299.90, 'ENTREGUE');
+insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (9, TO_DATE('19-05-2025', 'DD-MM-YYYY'), 129.90, 'PAGO');
+insert into SSX_PEDIDOS (id_pedido, data_pedido, preco, status) values (10, TO_DATE('03-05-2025', 'DD-MM-YYYY'), 299.90, 'CANCELADO');
 
 insert into SSX_EMAILS (id_email, email, ativo) values (1, 'gustavomatias@gmail.com', 1);
 insert into SSX_EMAILS (id_email, email, ativo) values (2, 'ericissamu@gmail.com', 1);
@@ -75,16 +75,48 @@ insert into SSX_ITENS_PEDIDO (id_item_pedido, ssx_usuarios_id_usuario, ssx_pedid
 insert into SSX_ITENS_PEDIDO (id_item_pedido, ssx_usuarios_id_usuario, ssx_pedidos_id_pedido, quantidade) values (9, 9, 9, 1);
 insert into SSX_ITENS_PEDIDO (id_item_pedido, ssx_usuarios_id_usuario, ssx_pedidos_id_pedido, quantidade) values (10, 10, 10, 1);
 
-insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (1, 1, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
-insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (2, 2, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
-insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (3, 3, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
-insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (4, 4, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
-insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (5, 5, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
-insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (6, 6, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
-insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (7, 7, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
-insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (8, 8, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
-insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (9, 9, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
-insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (10, 10, 'Sensor 3 em 1', 'Um sensor que mede temperatura, umidade e raio UV', 169.90);
+insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (1, 1, 'Sensor Plus', 'Relógio que capta TEM, UMD e UV com interface', 129.90);
+insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (2, 2, 'Sensor Plus', 'Relógio que capta TEM, UMD e UV básico', 129.90);
+insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (3, 3, 'Sensor Básico', 'Um sensor que mede temperatura, umidade e raio UV', 129.90);
+insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (4, 4, 'Sensor Básico', 'Um sensor que mede temperatura, umidade e raio UV', 129.90);
+insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (5, 5, 'Sensor Plus', 'Relógio que capta TEM, UMD e UV com interface', 129.90);
+insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (6, 6, 'Sensor Plus', 'Relógio que capta TEM, UMD e UV com interface', 209.90);
+insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (7, 7, 'Sensor Básico', 'Um sensor que mede temperatura, umidade e raio UV', 129.90);
+insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (8, 8, 'Sensor Plus', 'Relógio que capta TEM, UMD e UV com interface', 209.90);
+insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (9, 9, 'Sensor Básico', 'Um sensor que mede temperatura, umidade e raio UV', 129.90);
+insert into SSX_PRODUTOS (id_produto, ssx_ip_id_item_pedido, nome, descricao, preco_unitario) values (10, 10, 'Sensor Plus', 'Relógio que capta TEM, UMD e UV com interface', 209.90);
+
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (1, 1, 'TEMPERATURA', 'Recebe temperatura e umidade', 'SHT31', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (2, 1, 'UV', 'Registra a radiação ultra violeta', 'VEML6075', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (3, 2, 'UV', 'Registra dados de temperatura e umidade', 'DHT20', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (4, 2, 'UV', 'Registra a radiação ultra violeta', 'VEML6075', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (5, 3, 'TEMPERATURA', 'Registra dados de temperatura e umidade', 'DHT20', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (6, 3, 'UV', 'Registra a radiação ultra violeta', 'VEML6075', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (7, 4, 'TEMPERATURA', 'Registra dados de temperatura e umidade', 'DHT20', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (8, 4, 'UV', 'Registra a radiação ultra violeta', 'VEML6075', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (9, 5, 'TEMPERATURA', 'Recebe temperatura e umidade', 'SHT31', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (10, 5, 'UV', 'Registra a radiação ultra violeta', 'VEML6075', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (11, 6, 'TEMPERATURA', 'Recebe temperatura e umidade', 'SHT31', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (12, 6, 'UV', 'Registra a radiação ultra violeta', 'VEML6075', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (13, 7, 'TEMPERATURA', 'Registra dados de temperatura e umidade', 'DHT20', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (14, 7, 'UV', 'Registra a radiação ultra violeta', 'VEML6075', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (15, 8, 'TEMPERATURA', 'Recebe temperatura e umidade', 'SHT31', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (16, 8, 'UV', 'Registra a radiação ultra violeta', 'VEML6075', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (17, 9, 'TEMPERATURA', 'Registra dados de temperatura e umidade', 'DHT20', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (18, 9, 'UV', 'Registra a radiação ultra violeta', 'VEML6075', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (19, 10, 'TEMPERATURA', 'Recebe temperatura e umidade', 'SHT31', 'ATIVO');
+insert into SSX_SENSORES (id_sensor, ssx_produtos_id_produto, tipo, descricao, modelo, status) values (20, 10, 'UV', 'Registra a radiação ultra violeta', 'VEML6075', 'ATIVO');
+
+insert into SSX_ALERTAS (id_alerta, ssx_ltrs_id_leitura_sensor, tipo_alerta, mensagem, nivel_risco, status) values (1, 1, 'UV_EXTREMO', 'Procure uma sombra', 2, 'RESOLVIDO');
+insert into SSX_ALERTAS (id_alerta, ssx_ltrs_id_leitura_sensor, tipo_alerta, mensagem, nivel_risco, status) values (2, 2, 'NENHUM', 'Nada', 1, 'ATIVO');
+insert into SSX_ALERTAS (id_alerta, ssx_ltrs_id_leitura_sensor, tipo_alerta, mensagem, nivel_risco, status) values (3, 3, 'UV_EXTREMO', 'Procure uma sombra', 3, 'RESOLVIDO');
+insert into SSX_ALERTAS (id_alerta, ssx_ltrs_id_leitura_sensor, tipo_alerta, mensagem, nivel_risco, status) values (4, 4, 'NENHUM', 'Nada', 1, 'ATIVO');
+insert into SSX_ALERTAS (id_alerta, ssx_ltrs_id_leitura_sensor, tipo_alerta, mensagem, nivel_risco, status) values (5, 5, 'TEMPERATURA_ALTA', 'Procure uma sombra', 3, 'IGNORADO');
+insert into SSX_ALERTAS (id_alerta, ssx_ltrs_id_leitura_sensor, tipo_alerta, mensagem, nivel_risco, status) values (6, 6, 'UV_EXTREMO', 'Procure uma sombra', 3, 'ATIVO');
+insert into SSX_ALERTAS (id_alerta, ssx_ltrs_id_leitura_sensor, tipo_alerta, mensagem, nivel_risco, status) values (7, 7, 'NENHUM', 'Nada', 1, 'ATIVO');
+insert into SSX_ALERTAS (id_alerta, ssx_ltrs_id_leitura_sensor, tipo_alerta, mensagem, nivel_risco, status) values (8, 8, 'UV_EXTREMO', 'Procure uma sombra', 3, 'RESOLVIDO');
+insert into SSX_ALERTAS (id_alerta, ssx_ltrs_id_leitura_sensor, tipo_alerta, mensagem, nivel_risco, status) values (9, 9, 'NENHUM', 'Nada', 1, 'RESOLVIDO');
+insert into SSX_ALERTAS (id_alerta, ssx_ltrs_id_leitura_sensor, tipo_alerta, mensagem, nivel_risco, status) values (10, 10, 'UMIDADE_BAIXA', 'Hidrate-se', 2, 'RESOLVIDO');
 
 -- UPDATE TABLE
 UPDATE SSX_USUARIOS
@@ -116,8 +148,16 @@ SET ssx_usuarios_id_usuario = 2
 WHERE id_item_pedido = 1;
 
 UPDATE SSX_PRODUTOS
-SET sensor = 'Sensor 3 em 1'
+SET nome = 'Sensor 3 em 1'
 WHERE id_produto = 2;
+
+UPDATE SSX_SENSORES
+SET tipo = 'UV'
+WHERE modelo = 'VEML6075';
+
+UPDATE SSX_ALERTAS
+SET status = 'RESOLVIDO'
+WHERE id_alerta = 2;
 
 -- DELETE ROW
 
@@ -125,13 +165,7 @@ DELETE FROM SSX_ALERTAS
 WHERE id_alerta = 10;
 
 DELETE FROM SSX_SENSORES
-WHERE id_sensor = 10;
-
-DELETE FROM SSX_PRODUTOS
-WHERE id_produto = 10;
-
-DELETE FROM SSX_ITENS_PEDIDO
-WHERE id_item_pedido = 10;
+WHERE ssx_produtos_id_produto = 10;
 
 DELETE FROM SSX_LEITURAS_SENSORES
 WHERE id_leitura_sensor = 10;
@@ -144,6 +178,12 @@ WHERE id_endereco = 10;
 
 DELETE FROM SSX_EMAILS
 WHERE id_email = 10;
+
+DELETE FROM SSX_PRODUTOS
+WHERE id_produto = 10;
+
+DELETE FROM SSX_ITENS_PEDIDO
+WHERE id_item_pedido = 10;
 
 DELETE FROM SSX_PEDIDOS
 WHERE id_pedido = 10;

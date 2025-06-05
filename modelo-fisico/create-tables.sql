@@ -43,16 +43,11 @@ CREATE TABLE SSX_ALERTAS
     ( 
      id_alerta                  INTEGER  NOT NULL , 
      SSX_LTRS_id_leitura_sensor INTEGER  NOT NULL , 
-     tipo_alerta                VARCHAR2 (12)  NOT NULL , 
+     tipo_alerta                VARCHAR2 (16)  NOT NULL , 
      mensagem                   VARCHAR2 (50)  NOT NULL , 
      nivel_risco                INTEGER  NOT NULL , 
      status                     VARCHAR2 (15)  NOT NULL 
     ) 
-;
-
-ALTER TABLE SSX_ALERTAS 
-    ADD 
-    CHECK (STATUS IN (1,2,3) OR nivel_risco BETWEEN 1 AND 3) 
 ;
 
 ALTER TABLE SSX_ALERTAS 
