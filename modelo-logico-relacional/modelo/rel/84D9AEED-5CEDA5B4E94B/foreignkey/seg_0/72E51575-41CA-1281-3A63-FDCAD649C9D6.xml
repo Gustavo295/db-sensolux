@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="72E51575-41CA-1281-3A63-FDCAD649C9D6" containerWithKeyObject="D66C0476-6973-19B6-AC49-E5E80C9CC8C6" localFKIndex="0ACF7342-FDD3-68DD-5534-757966AC5C27" name="SSX_ALERTAS_SSX_LTRS_FK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-06-06 13:10:44 UTC</createdTime>
+<generatorID>FA9171EB-A67F-2231-1920-937D92939206</generatorID>
+<ownerDesignName>modelo</ownerDesignName>
+<referredTableLongName>SSX_LEITURAS_SENSORES</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6C0A702D-CA9A-DCF2-5F9F-564A58B8C805</referredTableID>
+<keyObject>A3DE3168-7999-8F74-A475-4AC2B406F03F</keyObject>
+<referredKeyID>A3DE3168-7999-8F74-A475-4AC2B406F03F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_leitura_sensor</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

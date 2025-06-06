@@ -1,16 +1,16 @@
 <?xml version = '1.0' encoding = 'UTF-8'?>
-<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="517E7B07-A5F8-9CDA-E456-4FB4AFDFF68A" name="SSX_EMAILS">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-06-02 18:21:17 UTC</createdTime>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="853E3EDD-FA31-3B37-9F33-923BEC96B848" name="SSX_EMAILS">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-06-06 13:10:44 UTC</createdTime>
 <generatorID>998EFF2E-753B-56BF-7593-2010B6FDE2A7</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <allowColumnReorder>false</allowColumnReorder>
 <existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
 <parsed>true</parsed>
 <columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
-<Column name="id_email" id="F8E99D11-6102-850C-D55F-CD59BED630E0">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-06-02 18:21:17 UTC</createdTime>
+<Column name="id_email" id="A7173719-E6DE-4747-F904-366950CA4369">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-06-06 13:10:44 UTC</createdTime>
 <generatorID>04DCFCAA-80AD-2910-078F-9A00B8A4DDAB</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -19,9 +19,9 @@
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="email" id="FEF64ED9-2EC5-D2BF-B9DC-DE9D94130C41">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-06-02 18:21:17 UTC</createdTime>
+<Column name="email" id="5A3505D0-9EA0-3FEC-FB0A-7D9CFF0AD87C">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-06-06 13:10:44 UTC</createdTime>
 <generatorID>D911ADB2-32C9-DAE0-145E-047878F37D10</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -31,9 +31,9 @@
 <ownDataTypeParameters>255,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
-<Column name="ativo" id="BE07085C-9EB9-ABAC-A94F-DAF5D44677AA">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-06-02 18:21:17 UTC</createdTime>
+<Column name="ativo" id="FB1A0A1F-66F7-BD44-528D-C82BC0106D57">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-06-06 13:10:44 UTC</createdTime>
 <generatorID>B7600F41-32B8-EA0F-29CB-63072E6B5153</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
@@ -45,16 +45,16 @@
 </Column>
 </columns>
 <indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
-<ind_PK_UK id="7F5E680A-2997-3DC9-2697-2E2B1E1FD6F0" name="SSX_EMAILS_PK">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-06-02 18:21:17 UTC</createdTime>
+<ind_PK_UK id="E241F6CB-3415-6FA3-F861-D05B2AD4A7EA" name="SSX_EMAILS_PK">
+<createdBy>labsfiap</createdBy>
+<createdTime>2025-06-06 13:10:44 UTC</createdTime>
 <generatorID>4A57F022-B93D-F1CF-8F82-7CFC320D2D5E</generatorID>
 <ownerDesignName>modelo</ownerDesignName>
 <pk>true</pk>
 <indexState>Primary Constraint</indexState>
 <isSurrogateKey>false</isSurrogateKey>
 <indexColumnUsage>
-<colUsage columnID="F8E99D11-6102-850C-D55F-CD59BED630E0"/>
+<colUsage columnID="A7173719-E6DE-4747-F904-366950CA4369"/>
 </indexColumnUsage>
 </ind_PK_UK>
 </indexes>

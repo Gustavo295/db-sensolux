@@ -27,20 +27,6 @@
 <logicalDatatype>LOGDT011</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="id_leitura_sensor" id="E116F648-99E2-E2EB-EBAD-045D15315668">
-<createdBy>Fernando</createdBy>
-<createdTime>2025-05-29 20:57:58 UTC</createdTime>
-<generatorID>FA9171EB-A67F-2231-1920-937D92939206</generatorID>
-<ownerDesignName>modelo</ownerDesignName>
-<engineerTo>
-<item key="84D9AEED-985C-F19C-8A42-5CEDA5B4E94B" value="true"/>
-</engineerTo>
-<referedAttribute>BDB9BA04-2DAB-E75B-403B-0F7A3E4A5758</referedAttribute>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT011</logicalDatatype>
-<ownDataTypeParameters>,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="tipo_alerta" id="58E1282A-867B-0503-4512-D3DB4DCC4481">
 <createdBy>Fernando</createdBy>
 <createdTime>2025-05-29 21:04:46 UTC</createdTime>
