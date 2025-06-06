@@ -20,16 +20,16 @@ insert into SSX_EMAILS (email, ativo) values ('michelesantos@gmail.com', 1);
 insert into SSX_EMAILS (email, ativo) values ('caiooliveira@gmail.com', 1);
 insert into SSX_EMAILS (email, ativo) values ('luanjunior@gmail.com', 1);
 
-insert into SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) values (1, 'Gustavo Matias', 'M4ti4s', 'USER');
-insert into SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) values (2, 'Eric Issamu', 'Er1c1ssamu', 'USER');
-insert into SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) values (3, 'Gustavo Monção', 'Monca0', 'USER');
-insert into SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) values (4, 'Daniela Ribeiro', 'R1beiro', 'USER');
-insert into SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) values (5, 'Marcelo da Silva', 'S1lva', 'USER');
-insert into SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) values (6, 'Alessandra Guerra', 'Gu3rra', 'USER');
-insert into SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) values (7, 'João de Lima', 'DeL1ma', 'USER');
-insert into SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) values (8, 'Michele Santos', 'S4ntos', 'USER');
-insert into SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) values (9, 'Caio Oliveira', 'Olive1ra', 'USER');
-insert into SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) values (10, 'Luan Junior', 'Jun1or', 'USER');
+INSERT INTO SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) VALUES (1, 'Gustavo Matias', '$2a$10$WoTnkLuMlCSPgRz/UMH6Ge0MIVPNOcQ4VX/6Vr7DK4EPuAqAzfxDK', 'ADMIN');
+INSERT INTO SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) VALUES (2, 'Eric Issamu', '$2a$10$Ab1iyNcN8cPtkIPqxU9EjeebM2gKg4e8omML02HRiSfnHq6QSKYx6', 'ADMIN');
+INSERT INTO SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) VALUES (3, 'Gustavo Monção', '$2a$10$RE8diQSy09bW47ZkGfD/ZekjxQUymQol2d0vK5a4l93ZqBDRrqzWu', 'USER');
+INSERT INTO SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) VALUES (4, 'Daniela Ribeiro', '$2a$10$wPbXU27JdP9BC2mAHOdWu.I2cYkx/5Z4.2lbZGLx1DZc.DNBqhuHi', 'USER');
+INSERT INTO SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) VALUES (5, 'Marcelo da Silva', '$2a$10$D6WmvLzEX/WpmwdW9z7IG.BE6q/RGqG44jVgN2z.TGEV0Vv8gd6DO', 'USER');
+INSERT INTO SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) VALUES (6, 'Alessandra Guerra', '$2a$10$Ovf7kkHVz7OSg/uhuwPsc.mskUuKnl6fMJkUlHp0np8WyRBJIZmGm', 'USER');
+INSERT INTO SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) VALUES (7, 'João de Lima', '$2a$10$56yRfD29YIXy0rDeoE/zheqFg/WtFxu1JD.WS8eyEFk/UBGQ5Gp5G', 'USER');
+INSERT INTO SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) VALUES (8, 'Michele Santos', '$2a$10$yaZhAm7lyvRauVcuD78UQOdIzxR15FvjPIsL4sSD4INkSdmnUm62q', 'USER');
+INSERT INTO SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) VALUES (9, 'Caio Oliveira', '$2a$10$hvELh3oP.0LrZkGVMEZTZu7LS5dxsW2ZamDViqqV4qKOP9TxszT12', 'USER');
+INSERT INTO SSX_USUARIOS (ssx_emails_id_email, nome, senha, role) VALUES (10, 'Luan Junior', '$2a$10$SZjUrG9Ue.dVOiI7M.f9C.TkDwKrNJ9q5XYb3AxYpoXY1oeWnHqY6', 'USER');
 
 insert into SSX_ENDERECOS (ssx_usuarios_id_usuario, cep, estado, cidade, bairro, logradouro) values (1, '01001-000', 'SP', 'São Paulo', 'Centro', 'Praça da Sé');
 insert into SSX_ENDERECOS (ssx_usuarios_id_usuario, cep, estado, cidade, bairro, logradouro) values (2, '20010-000', 'RJ', 'Rio de Janeiro', 'Centro', 'Rua Primeiro de Março');
